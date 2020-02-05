@@ -1,0 +1,58 @@
+html{
+  height: 100vh;
+}
+body, #app{
+  background-color: #3a3937;
+  position: relative;
+  color: white;
+}
+.logo{
+  line-height: 107%;
+  mso-ascii-font-family: Calibri;
+  mso-fareast-font-family: +mn-ea;
+  mso-hansi-font-family: Calibri;
+  mso-bidi-font-family: +mn-cs;
+  mso-font-kerning: 12.0pt;
+  mso-effects-shadow-color: #fefefe;
+  mso-effects-shadow-alpha: 30.0%;
+  mso-effects-shadow-dpiradius: 6.3pt;
+  mso-effects-shadow-dpidistance: 3.15pt;
+  mso-effects-shadow-angledirection: 5040000;
+  mso-effects-shadow-align: topleft;
+  mso-effects-shadow-pctsx: 100.0%;
+  mso-effects-shadow-pctsy: 100.0%;
+  mso-effects-shadow-anglekx: 0;
+  mso-effects-shadow-angleky: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.logo_text {
+  color: red;
+}
+.logo_num {
+  color: #FFC000;
+}
+
+.bg-black {
+  background-color: #000000 !important;
+  color: #fff; }
+.bg-black .content .text,
+.bg-black .content .number {
+  color: #fff !important; }
+.bg1{
+  background-image: url('./img/btn1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border: 0;
+}
+.mybtn{
+  height: 100px!important;
+  font-size: 30px!important;
+ /* border-radius: 10px;
+  border: solid 1px white;*/
+}
+.navbar-nav .dropdown-menu {
+  position: absolute!important;
+  float: none;
+}

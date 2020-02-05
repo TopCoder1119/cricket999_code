@@ -1,0 +1,197 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+.card-header > .c-icon:first-child {
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  vertical-align: top;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.right-side-bar {
+  padding: 5px;
+  background: white;
+  color: black;
+  border-left: 1px solid rgba(159, 167, 179, .5);
+  box-shadow: 0 3px 4px 0 rgba(60, 75, 100, .14), 0 3px 3px -2px rgba(60, 75, 100, .12), 0 1px 8px 0 rgba(60, 75, 100, .2);
+
+  .nav-link {
+    border: 0;
+    height: 38px !important;
+    color: gray;
+  }
+
+  .nav-item {
+    .active {
+      border: 0;
+      border-bottom: solid 2px #3220d6;
+      color: #3220d6;
+      background-color: white;
+    }
+  }
+
+  .setItem {
+    padding: 4px;
+    display: flex;
+    border-bottom: solid 1px #c1c1c1;
+
+    .setTitle {
+      flex: 1;
+      margin: auto;
+    }
+
+  }
+
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.editPanel{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  max-height: 380px;
+  overflow-y: scroll;
+  .active{
+    background-color: orangered !important;
+  }
+  .editItem{
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+    margin: 2px;
+    background-color: #2b982b ;
+    border: none;
+    outline: none !important;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+  }
+  .sEditItem1{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+      margin: 2px;
+      background-color: #2b982b !important;
+      border: none;
+      outline: none !important;
+      overflow: hidden;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sEditItem2{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+    margin: 2px;
+    background-color: white;
+    border: none;
+    outline: none !important;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 14px;
+    padding-top: 8px;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+  }
+}
+.eventDetail {
+  text-align: center;
+  box-shadow: 0 3px 4px 0 rgba(60, 75, 100, .14), 0 3px 3px -2px rgba(60, 75, 100, .12), 0 1px 8px 0 rgba(60, 75, 100, .2);
+  border: solid 1px #d0d0d0;
+  margin: auto;
+  min-width: 400px;
+  color: white;
+  text-shadow: 2px 2px 10px #000000;
+  .title {
+    background-color: #fec034;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .body {
+    display: flex;
+    .section {
+      flex: 1;
+      background: #fe0f17;
+      padding: 5px;
+      height: 70px;
+      .sectionName{
+        font-size: 16px;
+        font-weight:600;
+      }
+      .sectionPrice{
+        font-weight:500;
+      }
+      .sectionRate{
+        font-size: 10px;
+      }
+    }
+    .section.favorite {
+      background: #0788e7;
+    }
+  }
+}
+.pointer {cursor: pointer;}
+.logo{
+  text-align: center;
+  line-height: 107%;
+  mso-ascii-font-family: Calibri;
+  mso-fareast-font-family: +mn-ea;
+  mso-hansi-font-family: Calibri;
+  mso-bidi-font-family: +mn-cs;
+  mso-font-kerning: 12.0pt;
+  mso-effects-shadow-color: #fefefe;
+  mso-effects-shadow-alpha: 30.0%;
+  mso-effects-shadow-dpiradius: 6.3pt;
+  mso-effects-shadow-dpidistance: 3.15pt;
+  mso-effects-shadow-angledirection: 5040000;
+  mso-effects-shadow-align: topleft;
+  mso-effects-shadow-pctsx: 100.0%;
+  mso-effects-shadow-pctsy: 100.0%;
+  mso-effects-shadow-anglekx: 0;
+  mso-effects-shadow-angleky: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.logo_text {
+  color: red;
+}
+.logo_num {
+  color: #FFC000;
+}
