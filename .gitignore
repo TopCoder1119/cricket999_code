@@ -1,0 +1,4 @@
+*.gitignore
+/public_html
+/backend/serviceAccountKey.json
+.idea
